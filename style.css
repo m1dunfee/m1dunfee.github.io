@@ -1,0 +1,59 @@
+html{
+    font-size: 26px;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border: 90px solid green;
+}
+
+
+.tablink {
+  background-color: green;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+
+
+.tablink:hover {
+  background-color: brown;
+}
+
+
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+
+
+#Education {background-color: gray;}
+#Experience {background-color: gray;}
+#References {background-color: gray;}
+
+
+
+body{
+  background-color: tan;
+}
+
+header{
+    font-size: 26px;
+    font-style:bold;
+}
+
+h1,h2,h3,h4,h5{
+    border-style: double;
+}
+
+}

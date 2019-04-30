@@ -1,4 +1,6 @@
-function opentab(tabName, elmnt, color) {
+//doesn't apear to be connecting with html
+console.log("js");
+function opentab(ClassName, elmnt, color) {
   // Hide all elements with class="tabcontent" by default */
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -13,7 +15,7 @@ function opentab(tabName, elmnt, color) {
   }
 
   // Show the specific tab content
-  document.getElementById(tabName).style.display = "block";
+  document.getElementById(ClassName).style.display = "block";
 
   // Add the specific color to the button used to open the tab content
   elmnt.style.backgroundColor = color;
